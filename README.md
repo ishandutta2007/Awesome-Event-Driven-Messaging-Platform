@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Messaging-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Driven-Messaging-Platform?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Messaging-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Driven-Messaging-Platform?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Messaging-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Event-Driven-Messaging-Platform?style=flat-square&logo=github&color=orange" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Messaging-Platform/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Messaging-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
@@ -88,76 +88,76 @@ The following SaaS and fully managed platforms are ranked in **descending order 
 
 ## 🐙 Open-Source GitHub Projects
 
-All open-source message brokers, streaming engines, and event-driven frameworks are listed below, **sorted in descending order by GitHub Stars**.  
-Each star badge links directly to that repository's stargazers page.
+All open-source message brokers, streaming engines, and event-driven frameworks are listed below, **sorted in descending order by GitHub_Stars**.  
+Each Stars_Badge links directly to that repository's stargazers page.
 
-1. **[Redis Streams](https://github.com/redis/redis)** [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)  
+1. **[Redis Streams](https://github.com/redis/redis)** [![GitHub_Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)  
    In-memory data structure store (BSD-3-Clause / RSALv2) used globally as a high-speed distributed message broker, streaming engine with consumer groups, and pub/sub bus with sub-millisecond latencies.
 
-2. **[Apache Kafka](https://github.com/apache/kafka)** [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)  
+2. **[Apache Kafka](https://github.com/apache/kafka)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)  
    The industry-standard distributed event streaming platform (Apache-2.0) capable of handling trillions of events daily with fault-tolerant storage, stream processing, consumer groups, and massive connector ecosystem.
 
-3. **[Celery](https://github.com/celery/celery)** [![GitHub stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers)  
+3. **[Celery](https://github.com/celery/celery)** [![GitHub_Stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers)  
    Simple, flexible, and reliable distributed task queue and asynchronous event-driven message passing framework in Python (BSD-3-Clause) supporting RabbitMQ, Redis, and Amazon SQS brokers.
 
-4. **[Dapr](https://github.com/dapr/dapr)** [![GitHub stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
+4. **[Dapr](https://github.com/dapr/dapr)** [![GitHub_Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
    Distributed Application Runtime (Apache-2.0) offering portable, event-driven building blocks including pluggable Pub/Sub providers, state management, and CloudEvents bindings across any cloud and edge.
 
-5. **[Apache RocketMQ](https://github.com/apache/rocketmq)** [![GitHub stars](https://img.shields.io/github/stars/apache/rocketmq?style=social&color=white)](https://github.com/apache/rocketmq/stargazers)  
+5. **[Apache RocketMQ](https://github.com/apache/rocketmq)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/rocketmq?style=social&color=white)](https://github.com/apache/rocketmq/stargazers)  
    Cloud-native distributed messaging and streaming data platform (Apache-2.0) with low latency, high concurrency, ordered messaging, and transactional event handling battle-tested at Alibaba scale.
 
-6. **[NATS Server](https://github.com/nats-io/nats-server)** [![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)  
+6. **[NATS Server](https://github.com/nats-io/nats-server)** [![GitHub_Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)  
    Cloud-native messaging system (Apache-2.0) engineered in Go for extreme simplicity, sub-millisecond latencies, multi-tenancy, and persistent streaming via JetStream. Single lightweight binary (~15MB memory footprint).
 
-7. **[EMQX](https://github.com/emqx/emqx)** [![GitHub stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)  
+7. **[EMQX](https://github.com/emqx/emqx)** [![GitHub_Stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)  
    Ultra-scalable open-source distributed MQTT broker (Apache-2.0) designed for massive IoT telemetry, connected vehicles, and industrial real-time event streaming scaling to 100M+ concurrent connections.
 
-8. **[Apache Pulsar](https://github.com/apache/pulsar)** [![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)  
+8. **[Apache Pulsar](https://github.com/apache/pulsar)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)  
    Distributed pub/sub messaging and streaming platform (Apache-2.0) with low latency (<10ms), multi-tenancy, geo-replication, tiered storage, and separated compute/storage architecture via Apache BookKeeper.
 
-9. **[RabbitMQ Server](https://github.com/rabbitmq/rabbitmq-server)** [![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)  
+9. **[RabbitMQ Server](https://github.com/rabbitmq/rabbitmq-server)** [![GitHub_Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)  
    The quintessential open-source multi-protocol message broker (MPL-2.0) written in Erlang supporting AMQP 0-9-1, AMQP 1.0, MQTT, STOMP, Quorum queues, and flexible routing topologies.
 
-10. **[Asynq](https://github.com/hibiken/asynq)** [![GitHub stars](https://img.shields.io/github/stars/hibiken/asynq?style=social&color=white)](https://github.com/hibiken/asynq/stargazers)  
+10. **[Asynq](https://github.com/hibiken/asynq)** [![GitHub_Stars](https://img.shields.io/github/stars/hibiken/asynq?style=social&color=white)](https://github.com/hibiken/asynq/stargazers)  
     Simple, reliable, and efficient distributed task queue and asynchronous event processing library in Go (MIT) backed by Redis with priority queues, retries, and rate limiting.
 
-11. **[Redpanda](https://github.com/redpanda-data/redpanda)** [![GitHub stars](https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white)](https://github.com/redpanda-data/redpanda/stargazers)  
+11. **[Redpanda](https://github.com/redpanda-data/redpanda)** [![GitHub_Stars](https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white)](https://github.com/redpanda-data/redpanda/stargazers)  
     Apache Kafka-compatible event streaming platform (BSL/Apache-2.0) engineered in C++ with Raft consensus, eliminating ZooKeeper and JVM overhead for 10x lower tail latencies and simplified operations.
 
-12. **[Eclipse Mosquitto](https://github.com/eclipse-mosquitto/mosquitto)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto?style=social&color=white)](https://github.com/eclipse-mosquitto/mosquitto/stargazers)  
+12. **[Eclipse Mosquitto](https://github.com/eclipse-mosquitto/mosquitto)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto?style=social&color=white)](https://github.com/eclipse-mosquitto/mosquitto/stargazers)  
     Lightweight open-source message broker (EPL-2.0/EDL-1.0) implementing MQTT versions 5.0, 3.1.1, and 3.1 for constrained devices, smart home automation, and edge gateways.
 
-13. **[ZeroMQ (libzmq)](https://github.com/zeromq/libzmq)** [![GitHub stars](https://img.shields.io/github/stars/zeromq/libzmq?style=social&color=white)](https://github.com/zeromq/libzmq/stargazers)  
+13. **[ZeroMQ (libzmq)](https://github.com/zeromq/libzmq)** [![GitHub_Stars](https://img.shields.io/github/stars/zeromq/libzmq?style=social&color=white)](https://github.com/zeromq/libzmq/stargazers)  
     High-performance asynchronous messaging library (MPL-2.0) providing smart sockets that carry atomic messages across in-process, IPC, TCP, and PGM multicast without dedicated broker daemons.
 
-14. **[Centrifugo](https://github.com/centrifugal/centrifugo)** [![GitHub stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=social&color=white)](https://github.com/centrifugal/centrifugo/stargazers)  
+14. **[Centrifugo](https://github.com/centrifugal/centrifugo)** [![GitHub_Stars](https://img.shields.io/github/stars/centrifugal/centrifugo?style=social&color=white)](https://github.com/centrifugal/centrifugo/stargazers)  
     Scalable real-time messaging server (Apache-2.0) over WebSocket, HTTP-streaming, SSE, and WebTransport with channel multiplexing, JWT authentication, and Redis/NATS backends.
 
-15. **[Watermill](https://github.com/ThreeDotsLabs/watermill)** [![GitHub stars](https://img.shields.io/github/stars/ThreeDotsLabs/watermill?style=social&color=white)](https://github.com/ThreeDotsLabs/watermill/stargazers)  
+15. **[Watermill](https://github.com/ThreeDotsLabs/watermill)** [![GitHub_Stars](https://img.shields.io/github/stars/ThreeDotsLabs/watermill?style=social&color=white)](https://github.com/ThreeDotsLabs/watermill/stargazers)  
     Efficient Go library (MIT) for building event-driven applications, supporting Kafka, RabbitMQ, Google Cloud Pub/Sub, NATS, AWS SQS/SNS, and SQL transactional outbox patterns.
 
-16. **[MQTT.js](https://github.com/mqttjs/MQTT.js)** [![GitHub stars](https://img.shields.io/github/stars/mqttjs/MQTT.js?style=social&color=white)](https://github.com/mqttjs/MQTT.js/stargazers)  
+16. **[MQTT.js](https://github.com/mqttjs/MQTT.js)** [![GitHub_Stars](https://img.shields.io/github/stars/mqttjs/MQTT.js?style=social&color=white)](https://github.com/mqttjs/MQTT.js/stargazers)  
     Universal MQTT client library for JavaScript, Node.js, and browser environments (MIT) supporting WebSocket and TCP connections with broad IoT and mobile support.
 
-17. **[Soketi](https://github.com/soketi/soketi)** [![GitHub stars](https://img.shields.io/github/stars/soketi/soketi?style=social&color=white)](https://github.com/soketi/soketi/stargazers)  
+17. **[Soketi](https://github.com/soketi/soketi)** [![GitHub_Stars](https://img.shields.io/github/stars/soketi/soketi?style=social&color=white)](https://github.com/soketi/soketi/stargazers)  
     Fast, resilient, Pusher-compatible open-source WebSocket server (MIT) built on uWebSockets.js for event fan-out with Redis horizontal clustering and SSL support.
 
-18. **[Memphis.dev](https://github.com/memphisdev/memphis)** [![GitHub stars](https://img.shields.io/github/stars/memphisdev/memphis?style=social&color=white)](https://github.com/memphisdev/memphis/stargazers)  
+18. **[Memphis.dev](https://github.com/memphisdev/memphis)** [![GitHub_Stars](https://img.shields.io/github/stars/memphisdev/memphis?style=social&color=white)](https://github.com/memphisdev/memphis/stargazers)  
     Developer-first message broker and streaming data platform (GPL-3.0 / Apache-2.0) built for modern cloud and Kubernetes stacks with built-in schema management and real-time observability.
 
-19. **[Apache EventMesh](https://github.com/apache/eventmesh)** [![GitHub stars](https://img.shields.io/github/stars/apache/eventmesh?style=social&color=white)](https://github.com/apache/eventmesh/stargazers)  
+19. **[Apache EventMesh](https://github.com/apache/eventmesh)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/eventmesh?style=social&color=white)](https://github.com/apache/eventmesh/stargazers)  
     Dynamic cloud-native event middleware (Apache-2.0) based on CloudEvents specifications providing seamless multi-protocol and multi-runtime event mesh routing across RocketMQ, Kafka, Pulsar, and Redis.
 
-20. **[Knative Eventing](https://github.com/knative/eventing)** [![GitHub stars](https://img.shields.io/github/stars/knative/eventing?style=social&color=white)](https://github.com/knative/eventing/stargazers)  
+20. **[Knative Eventing](https://github.com/knative/eventing)** [![GitHub_Stars](https://img.shields.io/github/stars/knative/eventing?style=social&color=white)](https://github.com/knative/eventing/stargazers)  
     Kubernetes-native event-driven architecture framework (Apache-2.0) providing declarative routing, filtering, channels, and brokers conforming to the CNCF CloudEvents standard.
 
-21. **[Outpost (Hookdeck)](https://github.com/hookdeck/outpost)** [![GitHub stars](https://img.shields.io/github/stars/hookdeck/outpost?style=social&color=white)](https://github.com/hookdeck/outpost/stargazers)  
+21. **[Outpost (Hookdeck)](https://github.com/hookdeck/outpost)** [![GitHub_Stars](https://img.shields.io/github/stars/hookdeck/outpost?style=social&color=white)](https://github.com/hookdeck/outpost/stargazers)  
     Self-hostable outbound webhooks infrastructure (Apache-2.0) pushing events to customer endpoints, SQS, RabbitMQ, or Kinesis with retries, signature verification, and OpenTelemetry instrumentation.
 
-22. **[Ripple](https://github.com/madisoheib/Ripple)** [![GitHub stars](https://img.shields.io/github/stars/madisoheib/Ripple?style=social&color=white)](https://github.com/madisoheib/Ripple/stargazers)  
+22. **[Ripple](https://github.com/madisoheib/Ripple)** [![GitHub_Stars](https://img.shields.io/github/stars/madisoheib/Ripple?style=social&color=white)](https://github.com/madisoheib/Ripple/stargazers)  
     Self-hosted, lightweight Pusher-compatible WebSocket server written in Rust with low memory footprint and sustained 50k deliveries/s at p50 14.7ms latency.
 
-23. **[Event (rbaliyan)](https://github.com/rbaliyan/event)** [![GitHub stars](https://img.shields.io/github/stars/rbaliyan/event?style=social&color=white)](https://github.com/rbaliyan/event/stargazers)  
+23. **[Event (rbaliyan)](https://github.com/rbaliyan/event)** [![GitHub_Stars](https://img.shields.io/github/stars/rbaliyan/event?style=social&color=white)](https://github.com/rbaliyan/event/stargazers)  
     Go event bus library with transactional outbox pattern, idempotency middleware, poison message quarantine, and dead-letter queues supporting Redis Streams and NATS.
 
 ---
@@ -196,8 +196,8 @@ If this curated repository saved you time, informed your architecture decisions,
 We actively welcome community contributions! To suggest new tools or update existing entries:
 
 1. **Fork the repository** on GitHub.
-2. **Add or edit entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Event-Driven-Messaging-Platform/README.md)** (adhering to the table structure for SaaS platforms and descending star count for open-source repos).
-3. Ensure entries include: platform name, official URL, concise description, specific pricing/limits or star badges.
+2. **Add or edit entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Event-Driven-Messaging-Platform/README.md)** (adhering to the table structure for SaaS platforms and descending Stars_Count for open-source repos).
+3. Ensure entries include: platform name, official URL, concise description, specific pricing/limits or Stars_Badges.
 4. **Submit a Pull Request** with a brief summary of the addition or update.
 
 ---
