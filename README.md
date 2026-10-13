@@ -8,7 +8,7 @@
 
 *Focused on Pub/Sub, Message Brokers & Real-Time Event Streaming*  
 
-**Last updated: March 2026**
+**Last updated: October 2026**
 
 
 
@@ -42,65 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Platform Events](https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-intro-emp.html)**
-
-  Enterprise messaging platform based on publish-subscribe model. Publishers and subscribers communicate through events without knowing each other. One or more subscribers can listen to the same event and carry out actions. Custom platform events are defined like custom objects. High-volume platform events publish asynchronously with at-least-once delivery. Standard-volume custom events retire in Summer '27. Event Relay provides no-code delivery to Amazon EventBridge .
-
-
-
-- **[AWS SNS](https://aws.amazon.com/sns/)**
-
-  Fully managed pub/sub messaging for Application-to-Application (A2A) and Application-to-Person (A2P). Supports standard and FIFO topics. Messages not persisted—delivered in real-time to subscribers. At-least-once delivery for HTTP/S, exactly-once for Lambda and SQS. Supports HTTP/S endpoints, email, SMS, mobile push, Lambda, and SQS queues. Subscription filter policies enable selective message delivery .
-
-
-
-- **[Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/)**
-
-  Fully managed enterprise message broker with queues and publish-subscribe topics. Queues for point-to-point; topics for pub/sub with multiple independent subscriptions. Messages persisted in triple-redundant storage across availability zones. Pull-based delivery. Features sessions for FIFO, auto-forwarding, transactions, and dead-letter queues. Serverless PaaS—no hardware patching or backup management .
-
-
-
-- **[Google Cloud Pub/Sub](https://cloud.google.com/pubsub)**
-
-  Asynchronous messaging service decoupling senders and receivers. Core concepts: publisher, message, topic, schema, subscription, subscriber. Messages written to storage then delivered to all attached subscriptions. Acknowledged messages deleted after all subscriptions ack. Unacknowledged messages redelivered until retention expires. Supports fan-in, load-balanced, and fan-out patterns .
-
-
-
-- **[Apache Pulsar Cloud](https://pulsar.apache.org/)**
-
-  Cloud-native distributed messaging and streaming. Proven at scale serving millions of messages per second. Layered architecture separates compute (brokers) from storage (BookKeeper). Features multi-tenancy, geo-replication, tiered storage, and low latency (<10ms). Supports up to 1M topics. Six official client languages. Serverless Functions and 3rd party connectors .
-
-
-
-- **[Confluent Cloud](https://www.confluent.io/confluent-cloud/)**
-
-  Fully managed Apache Kafka service built on Kora cloud-native engine. Autoscaling clusters right-size infrastructure automatically. 99.99% uptime SLA. 120+ pre-built and 80+ fully managed connectors. Features Cluster Linking for multi-region sync, Stream Governance, Flink for stream processing, and Tableflow for Iceberg/Delta Lake materialization. Available on AWS, Azure, and GCP across 100+ regions .
-
-
-
-- **[Solace PubSub+ Cloud](https://solace.com/cloud-dev-pubsub/)**
-
-  Enterprise-grade event broker as a service. Supports pub/sub, queuing, streaming, replay, and request/reply. Open protocols: AMQP, MQTT, JMS, REST, WebSocket. Deployable in shared VPC, customer VPC, dedicated VPC, or on-premises Kubernetes. Features Event Portal for event management and dynamic event mesh across distributed enterprise .
-
-
-
-- **[Redpanda Cloud](https://www.redpanda.com/redpanda-cloud)**
-
-  Fully managed streaming data platform with Kafka API compatibility. Built on same high-performance core without JVM or ZooKeeper. BYOC (Bring Your Own Cloud) for data sovereignty, Dedicated clusters, and Serverless with zero base cost. 99.99% uptime SLA for BYOC. Runs on 3x fewer compute resources than Apache Kafka.
-
-
-
-- **[RabbitMQ Cloud](https://www.rabbitmq.com/)**
-
-  Managed RabbitMQ service. Supports AMQP, MQTT, STOMP protocols with flexible routing, message queuing, and pub/sub capabilities.
-
-
-
-- **[NATS Cloud](https://nats.io/)**
-
-  Managed NATS service. Core NATS offers at-most-once QoS (fire-and-forget). JetStream enables at-least-once/exactly-once, persistent streaming, and Key/Value Store. Single binary server (~15MB memory footprint). Official clients for Go, JavaScript, Python, Java, Rust, C#/.NET, and C .
+| Platform | Description & Key Features | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Salesforce Platform Events](https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-intro-emp.html)** | Enterprise messaging platform based on pub/sub model. Publishers and subscribers communicate asynchronously via events. High-volume platform events publish with at-least-once delivery; Event Relay delivers events to Amazon EventBridge. | Enterprise Edition starts at $165/user/month (includes base platform events); High-Volume Platform Events Add-On starts at $500/month (+100,000 events/day). | **Permanent Free Developer Edition**: 10,000 delivered events/24 hrs, 20 concurrent CometD subscribers, and 5 custom event definitions; 30-day free trial orgs available. |
+| **[AWS SNS](https://aws.amazon.com/sns/)** | Fully managed pub/sub messaging for A2A and A2P. Supports standard and FIFO topics, subscription filtering, and message fan-out to SQS, Lambda, HTTP/S, and mobile push. | $0.50 per 1 million requests (Standard topics; FIFO topics at $0.30/1M requests + $0.09/GB payload); HTTP/S delivery at $0.60 per 1M notifications. | **Permanent Free Tier**: 1,000,000 API requests/month, 100,000 HTTP/S notifications/month, 1,000 email notifications/month, and 1,000,000 mobile push notifications/month (deliveries to SQS and Lambda are free). |
+| **[Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/)** | Fully managed enterprise message broker with queues for point-to-point and topics for pub/sub with independent subscriptions, dead-lettering, sessions, and transactions. | Basic tier starts at $0.05 per million operations (queues only, $0 base fee); Standard tier starts at ~$10.00/month base unit (~$0.0135/hr, includes 13M ops), then $0.05 per million operations. | **12-Month Free Trial** (via Azure Free Account): 750 hours/month of Standard tier base unit and 13 million operations/month for 12 months, plus $200 credit for the first 30 days. |
+| **[Google Cloud Pub/Sub](https://cloud.google.com/pubsub)** | Asynchronous messaging service decoupling producers and consumers. Features at-least-once delivery, schemas, and fan-in / fan-out patterns. | Standard throughput starts at $40.00 per TiB ($0.04/GiB) after free tier; Pub/Sub Lite starts at $0.005/MiBps partition-hour + $0.04/GiB-month storage. | **Permanent Always Free Tier**: 10 GiB of message throughput/month and first 24 hours of message storage free; new GCP accounts receive a 90-day $300 trial credit. |
+| **[Apache Pulsar Cloud (StreamNative)](https://streamnative.io/)** | Cloud-native distributed messaging and streaming powered by Apache Pulsar. Features layered compute/storage separation, multi-tenancy, and geo-replication. | Serverless tier starts at ~$0.50 per ETU (Elastic Throughput Unit) per hour + $0.10/GB-month storage. | **30-Day Free Trial**: $200 in free credits (no credit card required) for Serverless cluster evaluation. |
+| **[Confluent Cloud](https://www.confluent.io/confluent-cloud/)** | Fully managed Apache Kafka service built on Kora engine. Features autoscaling clusters, 120+ pre-built connectors, Stream Governance, and managed Flink. | Basic tier starts at $0/month base fee with usage at ~$0.11/GB data ingress, ~$0.11/GB egress, and $0.10/GB-month storage; Standard tier starts at ~$1.50/hour base. | **30-Day Free Trial**: $400 in free credits (no credit card required upfront) valid across Basic, Standard, Enterprise, and Freight clusters. |
+| **[Solace PubSub+ Cloud](https://solace.com/cloud-dev-pubsub/)** | Enterprise-grade event broker as a service supporting pub/sub, queuing, streaming, and dynamic event meshes over open protocols (AMQP, MQTT, JMS, REST, WebSocket). | Foundation platform package with consumption drawdown via Platform Capacity Units (PCUs); broker instances scale per PCU-hour (enterprise starting packages via marketplace/sales). | **30-Day Free Trial**: Enterprise-100 Standalone broker with 100 concurrent connections, 100 queues/endpoints, 25 GB message spool storage, and 500,000 subscriptions; permanent Developer Service Tier ($0) capped at 100 connections. |
+| **[Redpanda Cloud](https://www.redpanda.com/redpanda-cloud)** | Fully managed streaming data platform with Kafka API compatibility. Built in C++ without JVM or ZooKeeper for low latency and high resource efficiency. | Serverless tier starts at $0 base fee/hour with usage at ~$0.02–$0.045/GB ingress, ~$0.02–$0.04/GB egress, and ~$0.09/GB-month storage; Dedicated clusters start at ~$0.20/hour per broker. | **30-Day Free Trial**: $100 in free credits (no credit card required), capped at 100 MB/s ingress, 300 MB/s egress, 5,000 partitions, and 10,000 connections. |
+| **[RabbitMQ Cloud (CloudAMQP)](https://www.cloudamqp.com/)** | Managed RabbitMQ service supporting AMQP 0-9-1, AMQP 1.0, MQTT, and STOMP with flexible routing, message clustering, and management console. | Shared plans start at $19/month (Tough Tiger); dedicated single-node instances start at $99/month (Big Bunny). | **Permanent Free Tier** (Little Lemur plan): 1,000,000 messages/month, 20 concurrent connections, 100 queues, and up to 10,000 queued messages (inactive instances deleted after 2 months). |
+| **[NATS Cloud (Synadia Cloud)](https://synadia.com/cloud)** | Managed NATS platform offering core pub/sub, JetStream persistent streaming, Key/Value store, Object Store, and multi-region leaf nodes. | Starter plan starts at $49/month (includes 100 connections, 100 GiB network data, 10 GiB storage, 3 accounts, and 3 leaf nodes). | **Permanent Free Tier** (Personal Plan): 10 concurrent connections, 10 GiB network data/month, 5 GiB standard storage, 10 standard streams, 2 accounts, and 2 leaf nodes. |
 
 
 
